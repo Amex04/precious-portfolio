@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The approach taken</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: #2c0052;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 32px 32px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+        }
+        .section{
+            background-color: #ddd;
+            padding: 16px 24px;
+            border-radius: 12px;
+            margin: 16px 32px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 32px;
+            color: #010101;
+            letter-spacing: 1px;
+        }
+        h3 {
+            color: #2c0052;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        img {
+            max-width: 100%;
+            height: 300px;
+            width: auto;
+            display: block;
+            margin: 16px 0;
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+        }
+        ul {
+            margin: 12px 0 16px 24px;
+        }
+        .button {
+            display: inline-block;
+            background: #1976d2;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 16px 0;
+            cursor: pointer;
+            transition: background 0.2s;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button:hover {
+            background: #0d47a1;
+        }
+        .userbility {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+        }
+        .userbility img {
+            max-width: 100%;
+            height: auto;
+            width: 1000px;
+            border-radius: 12px;
+        }
+
+        .iterations {
+        height: 200px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        padding: 16px;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 200px;
+        }
+        .iterations img {
+            display: inline-block;
+            max-width: 250px;
+            flex-wrap: wrap;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 1px 6px rgba(30,60,90,0.08);
+        }
+        @media (max-width: 700px) {
+            .container {
+                padding: 12px 4vw;
+            }
+            .iterations {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+    <div>
+        <h2>THE APPROACH TAKEN</h2>
+        <div class="userbility">
+            <div>
+            <h3>User Research Approach</h3>
+            <p>To gain insights and inspiration for the project, I conducted user research across multiple platforms, including Dribble, Pinterest, Landmark, and other food delivery related websites. These platforms helped me understand current design patterns, user expectations, and visual trends in the industry.</p>
+            <p>In addition, I incorporated a question and answer approach, which allowed me to gather direct feedback and better understand user behaviors, pain points, and preferences. This combination of visual research and interactive inquiry played a key role in shaping the overall user experience.</p>
+            </div>
+            <div><img src="../4.6 Pictures/undraw_Interview_re_e5jn 1.png" alt="photo showing user research process">
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div>
+            <h3>Information Architecture</h3>
+            <p>Create a clean and modern user flow diagram for a mobile or web-based e-commerce app. The flow should start from the Home page and guide users through Search, Filter, Cart, Payment, and Order Success, continuing to Order Tracking, History, and Re-Ordering. Each screen should include key CTAs like 'Discover your interest', 'Add to cart', 'Checkout', 'Select payment method', and 'Track order'. Use a simple black top bar for window representation and bright blue buttons for primary actions. Ensure directional arrows indicate navigation between pages.</p>
+            <img src="../my pic/Sitemap 3.png" alt="User flow diagram">
+        </div>
+        </section>
+        <section class="section">
+        <div>
+            <h3>Wireframe <span style="font-weight:normal;">(still in progress)</span></h3>
+            <p>A step-by-step low-fidelity wireframe for the product search flow in this mobile e-commerce app. Which includes 5 screens in a horizontal sequence showing the clickable areas and the user journey from search initiation to product review.</p>
+            <ul>
+                <li>Screen 1: Home page with a search bar and product categories.</li>
+                <li>Screen 2: Search overlay with keyboard prompt activated and a highlighted input field.</li>
+                <li>Screen 3: Live search suggestions appear as the user types.</li>
+                <li>Screen 4: Display multiple search result cards; user selects one.</li>
+                <li>Screen 5: Product detail page where the user can view item info and add to cart.</li>
+            </ul>
+            <img src="../my pic/SEARCH 3.png" alt="Wireframe showing the product search flow">
+        </div>
+    </section>
+    <section class="section">
+        <div>
+            <h3>Prototype</h3>
+            <p>Take a look at this clickable prototype that simulates the user flow of my transportation app, SafetyDrive. It covers key actions like entering your destination, selecting pickup and drop-off points, confirming a ride, and tracking your trip in real time. Go ahead and hit 'Play Prototype' to explore the experience from booking to arrival!</p>
+            <p>Click the button below to view the prototype in Figma:</p>
+            <a href="#" class="button">Play Prototype</a>
+            <img src="../my pic/sign in flow.png" alt="Video showing the clickable prototype of the app">
+        </div>
+        </section>
+        <section class="section">
+        <div>
+            <h3>Usability Testing & Design Critique</h3>
+            <p>I collaborated closely with stakeholders, testers, and developers to identify key usability issues and improve the design through iteration. A/B testing with users helped validate design decisions and gather actionable feedback.</p>
+            <p>Regular design critique sessions allowed me to evaluate and refine visual hierarchy, consistency, and usability ensuring a user centered and effective final product.</p>
+            <img src="../my pic/userbility testing.png" alt="Usability testing session">
+        </div>
+        </section>
+        <section class="section">
+        <div>
+            <h3>User Feedback</h3>
+            <p>Here’s a snapshot of the feedback collected from real users during and after usability testing. These insights helped me understand what worked, what didn’t, and where improvements were needed. Each piece of feedback played a key role in refining the final design and delivering a more user friendly experience.</p>
+            <img src="../my pic/Sitemap 3.png" alt="User feedback snapshot">
+        </div>
+        </section>
+        <section class="section">
+        <div class="iteration-designs">
+            <h3>Iteration Designs</h3>
+            <p>Design is an evolving process. Below, you’ll see the key iterations made based on usability testing, user feedback, and design critiques. Each change reflects an intentional move toward better clarity, accessibility, and user experience. Explore how the design matured from concept of the first designt ot the final product.</p>
+            <div class="iterations">
+                <img src="../4.6 Pictures/1st iteration.png" alt="first design">
+                <img src="../4.6 Pictures/2nd iteration.png" alt="second design">
+                <img src="../4.6 Pictures/3rd iteration.png" alt="third design">
+                <img src="../4.6 Pictures/4th iteration.png" alt="fourth design">
+            </div>
+        </div>
+        </section>
+    </div>
+</body>
+</html>

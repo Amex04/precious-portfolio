@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejime Precious Portfolio</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #21023d;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto 40px auto;
+}
+header, section, footer {
+  margin: 40px auto 40px auto;
+}
+.beautiful {
+  color: #a050e6;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 44px;
+  text-decoration: underline;
+  position: relative;
+  text-underline-offset: 8px;
+}
+
+/* === Header === */
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.branding h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.branding p {
+  font-size: 14px;
+}
+
+/* === Navigation === */
+.nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 12px 32px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #21023d;
+}
+
+/* === Status === */
+.status {
+  display: flex;
+  gap: 16px;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.status a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.status div:first-child {
+  color: limegreen;
+}
+
+/* === Hero Section === */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hero-content .text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.hero-content p {
+  margin-bottom: 16px;
+}
+
+.photo img {
+  max-width: 250px;
+  border-radius: 100%;
+}
+
+/* === Section Wrapper === */
+.section {
+  background: #ddd;
+  color: #010101;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+
+
+/* === Contact === */
+section ul {
+  list-style: none;
+  margin-top: 12px;
+  ;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+section ul a {
+  color: #ddd;
+  text-decoration: underline;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.footer h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer p {
+  margin: 16px;
+  font-size: 16px;
+  color: #aaa;
+}
+.footer a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* === Responsive === */
+@media (max-width: 700px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .photo img {
+    max-width: 180px;
+  }
+
+  .gallery-images img {
+    width: 100px;
+  }
+  .nav {
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 24px 0;
+  }
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div>
+            <div class="branding">
+                <h1>Ejime Precious</h1>
+                <p>Freelance Product Designer</p>
+            </div>
+            <nav class="nav">
+                <div><a href="../1 Home/index.html">Home</a></div>
+                <div><a href="./index.html">About</a></div>
+                <div><a href="#">User Persona</a></div>
+            </nav>
+            <div class="status">
+                <div>🟢 Available</div>
+                <div><a href="#">TikTok</a></div>
+                <div><a href="mailto://www.linkedin.com/in/ejime-precious-123456789/">Linkedin</a></div>
+            </div>
+        </div>
+            <section class="hero-content">
+      <div class="text">
+        <h2>Know more about me</h2>
+        <p>I'm a freelance product designer with a passion for creating user-friendly and visually appealing digital experiences. My journey in design started with a fascination for how users interact with technology, and I believe that good design is not just about aesthetics, but also about solving problems and enhancing usability.</p>
+        <p class="freelance">I'm available for freelance work</p>
+      </div>
+      <div class="photo">
+        <img src="/my pic/my picture 1.png" alt="Ejime Precious">
+      </div>
+    </section>
+
+
+     <section class="section">
+    <h2>Development</h2>
+    <p>I'm a seasoned Webflow developer with a passion for crafting bespoke websites that shine online. With expertise in building sites for diverse industries, I focus on delivering seamless user experiences, lightning-fast performance, and search-engine-optimized designs that drive real results.</p>
+  </section>
+
+  <section class="section">
+    <h2>What you may know about me</h2>
+    <p>Hi, I'm Precious! With a background in Delta State Innovation hub (Schoolville), I discovered my passion for UI/UX design. I create seamless, user-friendly experiences that solve real-world problems. When I'm not designing, I explore new trends and collaborate with fellow creatives. Let's connect and share design ideas.</p>
+    <p>My journey in design started with a fascination for how users interact with technology. I believe that good design is not just about aesthetics, but also about solving problems and enhancing usability.</p>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>UI/UX Design</li>
+      <li>Web Design</li>
+      <li>Full Stack Web Development</li>
+      <li>Responsive Design</li>
+      <li>Figma, Sketch, Adobe XD</li>
+    </ul>
+  </section>
+
+  <section class="footer">
+    <div class="main text">
+      <h2>Interested in working <span class="beautiful">together?</span></h2>
+    </div>
+    <h2>Contact me via any of the link below.</h2>
+            
+    <ul>
+      <li>Email: <a href="mailto:ejimeprecious46@gmail.com">ejimeprecious46@gmail.com</a></li>
+      <li>LinkedIn: <a href="mailto://www.linkedin.com/in/ejime-precious-123456789/">Ejime Precious</a></li>
+      <li>Twitter: <a href="mailto://twitter.com/ejime_precious">ejime_precious</a></li>
+    </ul>
+        <p>If you're interested in collaborating or have any questions, feel free to reach out!</p>
+  </section>
+
+  </div>
+    </header>
+</div>
+  </section>
+
+</body>
+</html>

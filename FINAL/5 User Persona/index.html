@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejime Precious Portfolio</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #21023d;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto 40px auto;
+}
+header, section, footer {
+  margin: 40px 0;
+}
+
+/* === Header === */
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.branding h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.branding p {
+  font-size: 14px;
+}
+
+/* === Navigation === */
+.nav {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #aaa;
+  padding: 12px 32px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #21023d;
+}
+
+/* === Status === */
+.status {
+  display: flex;
+  gap: 16px;
+  font-weight: 600;
+  flex-wrap: wrap;
+}
+
+.status a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.status div:first-child {
+  color: limegreen;
+}
+
+.beautiful {
+  color: #a050e6;
+  font-family: 'Brush Script MT', cursive;
+  font-size: larger;
+  text-decoration: underline;
+  position: relative;
+  text-underline-offset: 8px;
+}
+
+/* ==== USER PERSONA ==== */
+/* Container Card */
+.profile-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;  
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  gap: 30px;
+}
+
+/* Left Column */
+.profile-left {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.profile-left img {
+  width: 200px;
+  display: flex;
+  max-width: 280px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.profile-left h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.profile-left p {
+  font-size: 16px;
+}
+
+/* Right Column */
+.profile-right {
+  min-width: 300px;
+}
+
+.profile-right h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.profile-right p {
+  font-size: 16px;
+}
+
+
+/* === Contact === */
+section ul {
+  list-style: none;
+  margin-top: 12px;
+}
+
+section ul li {
+  margin-bottom: 8px;
+}
+
+section ul a {
+  color: #ddd;
+  text-decoration: underline;
+}
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.footer h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer p {
+  margin: 16px;
+  font-size: 16px;
+  color: #aaa;
+}
+.footer a {
+  color: #ddd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-right {
+    text-align: left;
+  }
+    .nav {
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 24px 0;
+  }
+}
+  </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div>
+            <div class="branding">
+                <h1>Ejime Precious</h1>
+                <p>Freelance Product Designer</p>
+            </div>
+            <nav class="nav">
+                <div><a href="./index.html">Home</a></div>
+                <div><a href="../2 About me/index.html">About</a></div>
+                <div><a href="#">User Persona</a></div>
+            </nav>
+            <div class="status">
+                <div>🟢 Available</div>
+                <div><a href="#">TikTok</a></div>
+                <div><a href="mailto://www.linkedin.com/in/ejime-precious-123456789/">Linkedin</a></div>
+            </div>
+        </div>
+
+
+<div class="profile-card">
+  <!-- Left side -->
+  <div class="profile-left">
+    <div>
+        <img src="/my pic/me.jpg" alt="Profile Photo">
+    </div>
+    <div>
+    <h3>Needs & Frustrations</h3>
+    <p>As a UI/UX designer, I need to balance business goals with user needs, but I'm often frustrated by stakeholders who prioritize one over the other. I wish for more collaboration and open communication to ensure design solutions meet both business objectives and user expectations. Additionally, I'd love to have more time for user testing and iteration to refine my designs and deliver exceptional user experiences.</p>
+  </div>
+  </div>
+
+  <!-- Right side -->
+  <div class="profile-right">
+    <div>
+    <h3>Needs & Frustrations</h3>
+    <p>With a foundation in design principles from Schoolville Training, I've honed my attention to detail and user-centric approach. I believe great design is about empathy, crafting intuitive experiences, and bringing ideas to life with tools like Figma and Sketch.</p>
+    </div>
+    <div>
+    <h2>Ejime Precious</h2>
+    <p>UI/UX Designer</p>
+    <p>06/01/1993</p>
+    <p>Single</p>
+    <p>Delta State, Asaba</p>
+  </div>
+  </div>
+</div>
+
+  <section class="footer">
+    <div class="main text">
+      <h2>Interested in working <span class="beautiful">together?</span></h2>
+    </div>
+    <h2>Contact me via any of the link below.</h2>
+            
+    <ul>
+      <li>Email: <a href="mailto:ejimeprecious46@gmail.com">ejimeprecious46@gmail.com</a></li>
+      <li>LinkedIn: <a href="mailto://www.linkedin.com/in/ejime-precious-123456789/">Ejime Precious</a></li>
+      <li>Twitter: <a href="mailto://twitter.com/ejime_precious">ejime_precious</a></li>
+    </ul>
+        <p>If you're interested in collaborating or have any questions, feel free to reach out!</p>
+  </section>
+
+  </div>
+    </header>
+</div>
+  </section>
+
+</body>
+</html>
